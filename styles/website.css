@@ -1,0 +1,13 @@
+.page-inner {
+  max-width: none;
+  padding: 20px 120px 40px 120px !important;
+}
+
+.page-toc {
+  float: none;
+  font-size: inherit
+}
+
+.page-toc::before {
+  display: none;
+}

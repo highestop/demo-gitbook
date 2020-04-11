@@ -1,0 +1,29 @@
+{
+  "name": "@highestop/gitbook-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "gitbook": "./node_modules/.bin/gitbook",
+    "help": "gitbook help",
+    "fetch": "gitbook fetch",
+    "update": "gitbook update",
+    "unintsall": "gitbook uninstall",
+    "init": "gitbook install",
+    "build": "gitbook build",
+    "dev": "gitbook serve"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-page-toc": "^1.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
