@@ -1,7 +1,6 @@
 {
-  "name": "@highestop/gitbook-template",
+  "name": "demo-gitbook",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "gitbook": "./node_modules/.bin/gitbook",
     "help": "gitbook help",
@@ -14,16 +13,13 @@
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-page-toc": "^1.1.1"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "husky": "^4.2.5"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "gitbook-plugin-back-to-top-button": "0.1.4",
+    "gitbook-plugin-code": "0.1.0",
+    "gitbook-plugin-flexible-alerts": "1.0.3",
+    "gitbook-plugin-hide-element": "0.0.4",
+    "gitbook-plugin-insert-logo": "0.1.5",
+    "gitbook-plugin-page-toc": "1.1.1",
+    "gitbook-plugin-popup": "0.0.1",
+    "gitbook-plugin-search-pro": "2.0.2"
   }
 }
