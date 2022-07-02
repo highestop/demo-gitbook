@@ -1,6 +1,6 @@
 {
   "name": "demo-gitbook",
-  "version": "0.0.0",
+  "packageManager": "yarn@1.22.19",
   "scripts": {
     "gitbook": "./node_modules/.bin/gitbook",
     "help": "gitbook help",
